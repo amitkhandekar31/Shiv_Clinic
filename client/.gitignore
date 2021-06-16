@@ -5,7 +5,7 @@
 /.pnp
 .pnp.js
 /build
-/nodemon
+/nodemon.js
 # testing
 /coverage
 
