@@ -1,0 +1,183 @@
+.sBgColor{
+/*background: linear-gradient(to bottom, #7f7fd5, #86a8e7, #91eae4);*/
+  /*background: linear-gradient(to left, #16222a, #3a6073);*/
+  background-color: #fff;
+height: 100vh;
+  }
+.serviceH1{
+position: absolute;
+    text-align: center;
+    color: #ac125b;
+    font-size: 40px;
+    top: 50px;
+    text-align: center;
+    font-family: "Audiowide";
+}
+.sHeader2{
+	font-size: 15px;
+}
+.sImg1{
+	position: absolute;
+	top: 140px;
+	left: 70px;
+	/*width: 700px;*/
+	/*height: 500px;*/
+}
+.serList{
+  position: absolute;
+}
+.infocardContainer {
+  display: flex;
+  height: 60px;
+  width: 440px;
+  border-radius: 100px;
+  background: rgb(0,159,255);
+  /*background: linear-gradient(121deg, rgba(255,255,255,0) 13%, rgba(0,159,255,1) 100%);*/
+  transition: all 400ms ease-in;
+  transition-delay: 1s;
+  /*margin: auto;*/
+  /*margin-top: 100px;*/
+  /*--margin-top: 100px;*/
+  z-index: 6;
+  position: relative;
+  top: 150px;
+  left: 70px;
+  margin-bottom: 15px;
+}
+/*.infocardContainer:hover {
+  width: 410px;
+  border-radius: 100px 10px 100px 100px;
+  transition: all 1s ease-out;
+  transform: translateX(-100px);
+}*/
+.mb20{
+	/*margin-bottom: 130px;*/
+}
+.infocardContainer div {
+  text-color: white;
+  flex-shrink: 1;
+  width: 100%;
+  --background-color: green;
+}
+.infocardContainer div * {
+  display: flex;
+  --flex: inherit;
+  /*overflow: hidden;*/
+  text-overflow: hidden;
+  --background-color: yellow;
+  color: white;
+  white-space: nowrap;
+  width: 0;
+  height: auto;
+  transition: all 450ms ease-in;
+  transition-delay: 1s;
+}
+#main{
+  background-color: #afafe4 ;
+}
+/*.infocardContainer:hover div *{
+  --background-color: purple;
+  display: flex;
+  visibility: visible;
+  transition: all 1s ease-out;
+  transition-delay: 500ms;
+  width: 100%;
+  height: auto;
+}*/
+
+.infocardContainer #main, .infocardContainer #main img{
+  --background-color: red;
+  height: 60px;
+  width: 60px;
+  padding-right: 10px;
+  border-radius: 100%;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.infocardContainer #main img{
+  height: 60px;
+  width: 60px;
+  transition: none;
+  display: float;
+  position: relative;
+  border: 3px solid white;
+  margin: 0 0 0 0; padding: 0 0 0 0;
+  left: 0px;
+}
+.infocardContainer #textbois {
+  position: relative;
+  top: 10px;
+  left: 20px;
+  /*font-size: 5px;*/
+}
+.infocardContainer #textbois #hotlinks {
+  max-width: 70%;
+  max-height: 40px;
+  
+  --background-color: white;
+  position:absolute;
+  bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 13px;
+}
+.infocardContainer #textbois #hotlinks * {
+  background-color: white;
+  max-width: 30px;
+  --margin: 0 1px 0 1px;
+  border-radius: 25px;
+}
+/*TODO: animate copy main transition style for info*/
+.infocardContainer #textbois #hotlinks *:hover {
+  
+  
+}
+/*-----------------------mob css------------------------*/
+.smvBox2{
+  position: absolute;
+  height: 170px;
+
+}
+.smvBox3{
+  position: relative;
+  top:30px;
+  left: 10px; 
+}
+.smvImg1{
+  padding: 4px;
+  height: 25px;
+  width: 25px;
+}
+.infocardContainer_mv{
+  display: flex;
+    height: 25px;
+    width: 25px;
+    border-radius: 100px;
+    position: relative;
+    background-color: #afafe4;
+    margin-bottom: 2px;
+
+ 
+}
+.textbois_mv{
+  overflow: hidden;
+    height: 20px;
+    /* background-color: cornflowerblue; */
+    border-radius: 10px;
+    position: relative;
+    left: 4px;
+    background: rgb(0,159,255);
+    margin-bottom: 2px;
+    top: 2px;
+
+
+}
+.smv-h1{
+  font-size: 12px;
+    position: absolute;
+    left: 5px;
+    color: #fff;
+    font-family: "Stint Ultra Condensed";
+    top: -5px;
+
+}
