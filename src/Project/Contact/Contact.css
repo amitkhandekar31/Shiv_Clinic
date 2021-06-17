@@ -4,7 +4,7 @@
 }
 .cBox1{
   position: relative;
-  height: 100vh;
+  height: 92vh;
   /*background-color: #aaa;*/
 }
 .cBox2{
@@ -12,7 +12,7 @@
   height: 80vh;
   /*background-color: #aaa;*/
   float: left;
-  margin-top: 15vh;
+  margin-top: 12vh;
 }
 .cBox3{
   position: relative;
@@ -81,7 +81,7 @@ svg {
   position: relative;
   background: #3e3e3e;
   border-radius: 15px;
-  top: 130px;
+  top: 92px;
   right: 30px;
 }
 
@@ -362,4 +362,19 @@ body, button, input {
 }
 ::-webkit-input-placeholder { /* Edge */
   color: #eee !important;
+}
+
+.footerH2{
+  font-family: Stint Ultra Condensed;
+  color: #fff;
+  position: absolute;
+  top: 13px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.footerBox{
+  height: 50px;
+  /*margin-top: 20px;*/
+  /*margin-bottom: 20px;*/
+  background-color: #5bc0de;
 }

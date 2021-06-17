@@ -566,8 +566,11 @@ const clientmobileRegex = RegExp(/^[0-9][0-9]{9}$/);
 					</div>
 
 	
-					
+					<div className="col-lg-12 col-md-12 noPad footerBox">
+						<h3 className="footerH2 col-md-12 col-lg-12 noPad">Design & Developed by Amit Khandekar</h3>
+					</div>
 				</div>
+
 				<div className="links">
 						<ul>
 							<li>

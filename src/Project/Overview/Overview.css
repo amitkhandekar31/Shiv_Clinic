@@ -199,6 +199,16 @@ ul{
 	position: absolute;
 	top: 90px;
 }
+.omvBox3{
+	position: relative;
+    top: 13px;
+    height: 100px;
+}
+.omvBox4{
+	position: relative;
+    top: 12px;
+    left: -13px;
+}
 .omv-h2{
     font-size: 10px;
     position: absolute;
@@ -216,9 +226,9 @@ font-family: 'Audiowide', serif;
 color: #e84118;
 }
 .omv-h4{
-	font-size: 10px;
+	font-size: 11px;
 	position: absolute;
-	top: 50px;
+	top: 40px;
 	font-family: Stint Ultra Condensed;
 	color: #303952;
 

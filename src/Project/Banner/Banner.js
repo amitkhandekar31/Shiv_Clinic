@@ -122,6 +122,9 @@ import ContactMv from '../Contact/ContactMv.js';
 							<div className="col-sm-12 col-xs-12 noPad">
 								<ContactMv />
 							</div>
+							<div className="col-sm-12 col-xs-12 noPad bmvBox3">
+								<h3 className="footerH1 col-xs-12 col-sm-12 noPad">Design & Developed by Amit Khandekar</h3>
+							</div>
 							
 							
 						</div>
