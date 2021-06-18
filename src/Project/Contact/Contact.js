@@ -115,7 +115,7 @@ const clientmobileRegex = RegExp(/^[0-9][0-9]{9}$/);
 	      if(formValid(this.state.formerrors)){
 		        axios
 		        // .post('/api/form',formValues1)
-		        .post('/.netlify/functions/server/api/form',formValues1)
+		        .post('https://shivclinicapi.netlify.app/.netlify/functions/server/api/form',formValues1)
 		        .then((res)=>{
 		                   if(res.status === 200){
 		                    swal("Thank you for contacting us. We will get back to you shortly.")
@@ -155,7 +155,7 @@ const clientmobileRegex = RegExp(/^[0-9][0-9]{9}$/);
       if(formValid(this.state.formerrors)){
         axios
         // .post('/api/form',formValues2)
-        .post('/.netlify/functions/server/api/form',formValues2)
+        .post('https://shivclinicapi.netlify.app/.netlify/functions/server/api/form',formValues2)
         .then((res)=>{
                   if(res.status === 200){
                     console.log("Mail Sent TO ADMIN successfully!")
