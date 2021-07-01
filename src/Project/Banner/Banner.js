@@ -45,7 +45,7 @@ import ContactMv from '../Contact/ContactMv.js';
 								</div>
 							</div>
 						</div>
-						<div className="main-container">
+						<div className="main-container col-lg-12 col-md-12 noPad">
 							<div className="col-lg-12 col-md-12 noPad">
 								<img src="/images/banner8.jpg" className="imgProp" />
 								<h1 className="header1">We Care </h1>
@@ -60,6 +60,7 @@ import ContactMv from '../Contact/ContactMv.js';
 								<div className="iconB3">
 									<i className="fa fa-stethoscope col-lg-12 faIcon3 pointer"  style={{color: "#337AB7"}} title="View Profile"/>
 								</div>
+								<button className="btn1 " onClick={this.toggleClass.bind(this)} >Get Started</button>
 							</div>
 						</div>
 						<div className="shadow one"></div>

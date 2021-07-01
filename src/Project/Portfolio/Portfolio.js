@@ -79,14 +79,14 @@ import Particles from 'react-particles-js';
 						<div class="slide ">
 							<div className="col-lg-12 ">
 								<div className="col-lg-4 bg1">
-									<img src="/images/d3.png" className="pImg2 noPad" />
+									<img src="/images/05.png" className="pImg2 noPad" />
 								</div>
 								<div className="col-lg-6 bg2">
 									{/*<h3 className="pfHeader1">HELLO, I'M</h3>*/}
 									<h2 className="pfHeader1">DR. OMKARESHWAR KHANDEKAR </h2>
 									<h3 className="pfHeader2">B.H.M.S | General Practitioner</h3>
 									<span className="pfHeader3">He is a Homoeopath and General Practitioner in Mahud(B.K) Tal:Sangola.
-													 <br/>He completed BHMS from Sawkar Homoeopathic Medical College, Satara in 2012
+													 <br/>He completed BHMS from Sawkar Homoeopathic Medical College, Satara in 2013
 													 <br/>He has strong understanding of current principles methods, and procedures for the delivery of medical evaluation, diagnosis, and patient treatment.
 													 His aim is to provide complete in holistic treatment to every person in a family, also to provide diet & lifestyle education which is need of our society right now.
 													 </span>
@@ -101,7 +101,7 @@ import Particles from 'react-particles-js';
 							<div className="col-lg-12 " id="hideDiv">
 								<div className="col-lg-4 bg1">
 									<img
-							              src="/images/d1.png"
+							              src="/images/06.png"
 							              alt=""
 							              className="pImg1"
 							        />

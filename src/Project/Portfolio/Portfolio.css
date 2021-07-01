@@ -12,9 +12,9 @@
 
 .pImg1{
   position: relative;
-    left: 28px;
+    left: 7px;
     /* top: 25px; */
-    width: 247px;
+    width: 258px;
     /* padding-top: 60px; */
     /* height: 100%; */
     object-fit: cover;
@@ -26,9 +26,9 @@
 }
 .pImg2{
   position: relative;
-    left: -7px;
-    top: -32px;
-    width: 247px;
+    left: -23px;
+    top: 10px;
+    width: 270px;
     /* padding-top: 60px; */
     /* height: 100%; */
     object-fit: cover;
@@ -70,7 +70,12 @@ min-height: 100vh;
   z-index: 1
 }
 .bg1{
-  background-color: #dff0d8;
+  /*background-color: #dff0d8;*/
+  /*background-color: #909499;*/
+  /*background:linear-gradient(to right, #aa4b6b, #6b6b83, #3b8d99);*/
+  background: linear-gradient(to right, #2980b9, #6dd5fa, #3b8d99);
+
+
     position: relative;
     height: 360px;
     width: 300px;
@@ -93,8 +98,11 @@ min-height: 100vh;
   content: '';
   height: 0;
   width: 0;
-  /*background: linear-gradient(135deg, #ff001d, #ddfa00);*/
-background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  /*background:linear-gradient(to right, #aa4b6b, #6b6b83, #3b8d99);*/
+  /*background: linear-gradient(to right, #2980b9, #6dd5fa, #3b8d99);*/
+  background:linear-gradient(to right, #aa4b6b, #6b6b83, #3b8d99);
+
+/*background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);*/
 
   position: absolute;
   z-index: -1;
@@ -358,7 +366,7 @@ background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
   width: 100px;
     overflow: hidden;
     position: relative;
-    left: -8px;
+    left: -15px;
 }
 
 .pmvImg2{
@@ -366,12 +374,13 @@ background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
     overflow: hidden;
     position: relative;
     left: -23px;
-    top: -19px;
+    top: 2px;
 }
 .pmvDiv1{
   position: relative;
     height: 130px;
-    background-color: #a5f7ef;
+    /*background-color: #a5f7ef;*/
+    background: linear-gradient(to right, #2980b9, #6dd5fa, #3b8d99);
     border-radius: 30px;
     width: 100px;
     left: 35px;
@@ -387,7 +396,8 @@ background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
 .pmvDiv3{
   position: relative;
     height: 125px;
-    background-color: #a5f7ef;
+    /*background-color: #a5f7ef;*/
+    background: linear-gradient(to right, #2980b9, #6dd5fa, #3b8d99);
     border-radius: 30px;
     width: 100px;
     left: 42px;

@@ -20,7 +20,7 @@ import './Portfolio.css'
 					<img src="/images/blob-haikei7.svg" className="col-xs-12 col-sm-12 noPad" />
 					<div className="col-xs-12 col-sm-12 omvBox2">
 						<div className="col-xs-6 pmvDiv1">
-							<img src="/images/d1.png" className="col-xs-12 noPad pmvImg1" />
+							<img src="/images/06.png" className="col-xs-12 noPad pmvImg1" />
 						</div>
 						<div className="col-xs-6 noPad pmvDiv2">
 							<span className="pmv-h1 col-xs-12 noPad">DR. VILAS KHANDEKAR </span>
@@ -42,13 +42,13 @@ import './Portfolio.css'
 							<span className="pmv-h1 col-xs-12 noPad">DR. OMKAR KHANDEKAR  </span>
 							<span className="pmv-h2 col-xs-12 noPad">B.H.M.S | General Practitioner</span>
 							<span className="pmv-h3 col-xs-12 noPad">He is a Homoeopath and General Practitioner in Mahud(B.K).
-								He completed BHMS from Sawkar Homoeopathic Medical College, Satara in 2012
+								He completed BHMS from Sawkar Homoeopathic Medical College, Satara in 2013.
 								He has strong understanding of current principles methods, and procedures for the delivery of medical evaluation, diagnosis, and patient treatment.
 								His aim is to provide complete in holistic treatment to every person in a family, also to provide diet & lifestyle education which is need of our society right now.
 							</span>
 						</div>
 						<div className="col-xs-6 pmvDiv3">
-							<img src="/images/d3.png" className="col-xs-12 noPad pmvImg2 " />
+							<img src="/images/05.png" className="col-xs-12 noPad pmvImg2 " />
 						</div>
 					</div>
 				</div>
