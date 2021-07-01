@@ -201,7 +201,7 @@ const clientmobileRegex = RegExp(/^[0-9][0-9]{9}$/);
 				<div className="navbar ">
 					<div className="menu">
 						<img src="/images/logo.png" />
-						<div className="hamburger-menu" onClick={this.toggleClass.bind(this)}>
+						<div className="hamburger-menu" onClick={this.toggleClass.bind(this)} title="Click here">
 							<div className="bar"></div>
 						</div>
 					</div>

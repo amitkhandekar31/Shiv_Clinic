@@ -64,7 +64,7 @@ import Particles from 'react-particles-js';
 				<div className="navbar ">
 					<div className="menu">
 						<img src="/images/logo.png" />
-						<div className="hamburger-menu" onClick={this.toggleClass.bind(this)}>
+						<div className="hamburger-menu" onClick={this.toggleClass.bind(this)} title="Click here">
 							<div className="bar"></div>
 						</div>
 					</div>
@@ -79,7 +79,7 @@ import Particles from 'react-particles-js';
 						<div class="slide ">
 							<div className="col-lg-12 ">
 								<div className="col-lg-4 bg1">
-									<img src="/images/05.png" className="pImg2 noPad" />
+									<img src="/images/051.png" className="pImg2 noPad" />
 								</div>
 								<div className="col-lg-6 bg2">
 									{/*<h3 className="pfHeader1">HELLO, I'M</h3>*/}
@@ -101,7 +101,7 @@ import Particles from 'react-particles-js';
 							<div className="col-lg-12 " id="hideDiv">
 								<div className="col-lg-4 bg1">
 									<img
-							              src="/images/06.png"
+							              src="/images/061.png"
 							              alt=""
 							              className="pImg1"
 							        />

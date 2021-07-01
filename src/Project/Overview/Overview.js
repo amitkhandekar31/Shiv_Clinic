@@ -32,7 +32,7 @@ import Particles from 'react-particles-js';
 				<div className="navbar ">
 					<div className="menu">
 						<img src="/images/logo.png" />
-						<div className="hamburger-menu" onClick={this.toggleClass.bind(this)}>
+						<div className="hamburger-menu" onClick={this.toggleClass.bind(this)} title="Click here">
 							<div className="bar"></div>
 						</div>
 					</div>
